@@ -1,3 +1,8 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+test:
+    path: /test
+    controller: App\Controller\TestController::index
+    
+
+success:
+    path: /success
+    controller: App\Controller\TestController::success
